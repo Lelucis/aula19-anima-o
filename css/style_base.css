@@ -70,9 +70,11 @@ nav ul li a::before{
 	left: 0; 
 	top: calc(50% - 90px); 
 	z-index: 2000; 
+
 }
 .social ul {
 	list-style: none;
+
 }
 
 .social ul li a {
@@ -82,7 +84,10 @@ nav ul li a::before{
     padding: 10px 15px;
     text-decoration: none;
     /* transition: ; */
-    transition: 2s !important;
+    transition: ease-in-out .4s;
+    margin: 0;
+    
+   
 }
 
 .social ul li .icon-facebook {background:#3b5998;} 
@@ -93,12 +98,15 @@ nav ul li a::before{
 
 .social ul li a:hover{
     /* transform: ; */
-    transform: translateX(80px);
-    background-color: black;
+    display: inline-block; 
+    color:var(--secondary-color);
+    background: var(--primary-color);
+    padding: 10px 50px;
+    text-decoration: none;
+    width: 80px;
+    transform: translateX(-10%);
     
-    
-
-}
+  }
 
 
   /* Conteudo */
