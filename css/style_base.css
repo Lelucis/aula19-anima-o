@@ -51,14 +51,16 @@ nav ul li a::before{
     position:absolute;
     bottom:-10px;
     height:5px;
+    width: 0;
+    transition: 2s;
     /*dica: width iniciando em 0 e aplicação de uma transição*/
   }
   
   nav ul li a:hover::before{
    /*dica: width 100*/
    width: 100px;
-   background-color: #00abf0;
-  }
+   background-color: #c79800;
+  }  
   
   
 
